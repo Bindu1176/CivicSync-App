@@ -1,0 +1,52 @@
+{
+  "app": { "name": "CivicSync", "tagline": "One App. Every Service. For Everyone.", "tagline2": "Your Digital Civic Identity" },
+  "nav": { "home": "Home", "notifications": "Notifications", "profile": "Profile", "progress": "Track Progress", "logout": "Logout" },
+  "auth": {
+    "login": "Login", "signup": "Sign Up", "forgotPassword": "Forgot Password?",
+    "username": "Username", "password": "Password", "confirmPassword": "Confirm Password",
+    "fullName": "Full Name", "mobile": "Mobile Number", "email": "Email Address", "dob": "Date of Birth",
+    "enterOTP": "Enter OTP", "verifyOTP": "Verify OTP", "setPassword": "Set Password",
+    "resetPassword": "Reset Password", "sendOTP": "Send OTP", "captcha": "Complete Captcha",
+    "noAccount": "Don't have an account?", "haveAccount": "Already have an account?",
+    "yourUsername": "Your Unique ID", "rememberUsername": "Remember this ID for login",
+    "newPassword": "New Password", "otpSent": "OTP sent to your mobile",
+    "loginSubtitle": "Enter your credentials to access services",
+    "signupSubtitle": "Create your civic digital identity"
+  },
+  "dashboard": {
+    "welcome": "Welcome back", "greeting": "Good", "morning": "Morning", "afternoon": "Afternoon", "evening": "Evening",
+    "modules": "Services", "eligibleSchemes": "Eligible Schemes", "checkEligibility": "Check Scheme Eligibility",
+    "noBanners": "Check your eligibility to discover schemes"
+  },
+  "modules": {
+    "identity": { "title": "Identity", "desc": "Digital ID Documents", "aadhaar": "Aadhaar", "pan": "PAN Card", "passport": "Passport", "voterID": "Voter ID", "rationCard": "Ration Card", "abha": "ABHA Health ID" },
+    "health": { "title": "Health Services", "desc": "Health Records & More", "records": "Health Records", "appointments": "Book Appointments", "vaccinations": "Vaccination History", "bloodDonations": "Blood Donations", "prescriptions": "Active Prescriptions" },
+    "transport": { "title": "Transport & Travel", "desc": "License, RC & Tickets", "drivingLicense": "Driving License", "vehicleRC": "Vehicle RC", "challans": "Fine / Challan", "fastag": "FASTag History", "bookings": "Book Tickets" },
+    "bills": { "title": "Pay Bills", "desc": "Utilities & Taxes", "electricity": "Electricity Bill", "gas": "Gas Bill", "water": "Water Bill", "propertyTax": "Property Tax", "broadband": "Broadband / Landline" },
+    "certificates": { "title": "Certificates", "desc": "Education & Civil", "sslc": "SSLC", "puc": "PUC", "degree": "Degree", "birthCertificate": "Birth Certificate", "casteCertificate": "Caste Certificate", "incomeCertificate": "Income Certificate", "domicileCertificate": "Domicile Certificate", "marriageCertificate": "Marriage Certificate" },
+    "schemes": { "title": "Schemes", "desc": "Subsidies & Pensions", "scholarships": "Active Scholarships", "govtSchemes": "Govt. Schemes", "pension": "Pension Status", "agriculturalSubsidies": "Agricultural Subsidies" },
+    "property": { "title": "Property", "desc": "Land & Deeds", "ownedProperties": "Owned Properties", "saleDeeds": "Sale Deeds", "encumbranceCertificates": "EC Certificate", "propertyTaxReceipts": "Tax Receipts" }
+  },
+  "eligibility": {
+    "title": "Scheme Eligibility Check", "subtitle": "Fill your details to find matching schemes",
+    "caste": "Caste Category", "income": "Annual Income (₹)", "disability": "Disability Status",
+    "state": "State", "gender": "Gender", "age": "Age",
+    "yes": "Yes", "no": "No", "check": "Check Eligibility", "results": "Results",
+    "eligible": "You are eligible for", "schemesFound": "schemes",
+    "general": "General", "obc": "OBC", "sc": "SC", "st": "ST",
+    "male": "Male", "female": "Female", "other": "Other"
+  },
+  "common": {
+    "download": "Download", "update": "Update Information", "payNow": "Pay Now",
+    "viewDetails": "View Details", "back": "Back", "submit": "Submit", "cancel": "Cancel",
+    "loading": "Loading...", "noData": "No data available", "success": "Success",
+    "error": "Error", "status": "Status", "date": "Date", "amount": "Amount",
+    "paid": "Paid", "unpaid": "Unpaid", "pending": "Pending", "active": "Active",
+    "approved": "Approved", "rejected": "Rejected", "inReview": "In Review",
+    "search": "Search", "filter": "Filter", "close": "Close"
+  },
+  "chatbot": { "title": "CivicSync AI", "placeholder": "Ask me anything about civic services...", "greeting": "Hello! I'm your CivicSync AI assistant. How can I help you today?", "voice": "Voice Input" },
+  "notifications": { "title": "Notifications", "markAllRead": "Mark all as read", "noNotifications": "No notifications yet", "unread": "unread" },
+  "payment": { "title": "UPI Payment", "enterPin": "Enter UPI PIN", "processing": "Processing Payment...", "success": "Payment Successful!", "transactionId": "Transaction ID", "toAccount": "To Account" },
+  "progress": { "title": "Progress Tracker", "noRequests": "No pending requests", "submitted": "Submitted", "updated": "Last Updated" }
+}

@@ -1,0 +1,52 @@
+{
+  "app": { "name": "सिविकसिंक", "tagline": "एक ऐप। हर सेवा। सबके लिए।", "tagline2": "आपकी डिजिटल नागरिक पहचान" },
+  "nav": { "home": "होम", "notifications": "सूचनाएं", "profile": "प्रोफ़ाइल", "progress": "प्रगति ट्रैक करें", "logout": "लॉगआउट" },
+  "auth": {
+    "login": "लॉगिन", "signup": "साइन अप", "forgotPassword": "पासवर्ड भूल गए?",
+    "username": "यूज़रनेम", "password": "पासवर्ड", "confirmPassword": "पासवर्ड की पुष्टि करें",
+    "fullName": "पूरा नाम", "mobile": "मोबाइल नंबर", "email": "ईमेल पता", "dob": "जन्म तिथि",
+    "enterOTP": "OTP दर्ज करें", "verifyOTP": "OTP सत्यापित करें", "setPassword": "पासवर्ड सेट करें",
+    "resetPassword": "पासवर्ड रीसेट करें", "sendOTP": "OTP भेजें", "captcha": "कैप्चा पूरा करें",
+    "noAccount": "खाता नहीं है?", "haveAccount": "पहले से खाता है?",
+    "yourUsername": "आपकी यूनिक आईडी", "rememberUsername": "लॉगिन के लिए यह आईडी याद रखें",
+    "newPassword": "नया पासवर्ड", "otpSent": "आपके मोबाइल पर OTP भेजा गया",
+    "loginSubtitle": "सेवाओं तक पहुंचने के लिए अपने क्रेडेंशियल दर्ज करें",
+    "signupSubtitle": "अपनी नागरिक डिजिटल पहचान बनाएं"
+  },
+  "dashboard": {
+    "welcome": "वापसी पर स्वागत है", "greeting": "शुभ", "morning": "प्रभात", "afternoon": "दोपहर", "evening": "संध्या",
+    "modules": "सेवाएं", "eligibleSchemes": "पात्र योजनाएं", "checkEligibility": "योजना पात्रता जांचें",
+    "noBanners": "योजनाओं की खोज के लिए अपनी पात्रता जांचें"
+  },
+  "modules": {
+    "identity": { "title": "पहचान", "desc": "डिजिटल आईडी दस्तावेज़", "aadhaar": "आधार", "pan": "पैन कार्ड", "passport": "पासपोर्ट", "voterID": "मतदाता पहचान पत्र", "rationCard": "राशन कार्ड", "abha": "ABHA हेल्थ आईडी" },
+    "health": { "title": "स्वास्थ्य सेवाएं", "desc": "स्वास्थ्य रिकॉर्ड और अधिक", "records": "स्वास्थ्य रिकॉर्ड", "appointments": "अपॉइंटमेंट बुक करें", "vaccinations": "टीकाकरण इतिहास", "bloodDonations": "रक्तदान", "prescriptions": "सक्रिय नुस्खे" },
+    "transport": { "title": "परिवहन और यात्रा", "desc": "लाइसेंस, RC और टिकट", "drivingLicense": "ड्राइविंग लाइसेंस", "vehicleRC": "वाहन RC", "challans": "जुर्माना / चालान", "fastag": "FASTag इतिहास", "bookings": "टिकट बुक करें" },
+    "bills": { "title": "बिल भुगतान", "desc": "उपयोगिताएं और कर", "electricity": "बिजली बिल", "gas": "गैस बिल", "water": "पानी बिल", "propertyTax": "संपत्ति कर", "broadband": "ब्रॉडबैंड / लैंडलाइन" },
+    "certificates": { "title": "प्रमाणपत्र", "desc": "शिक्षा और नागरिक", "sslc": "SSLC", "puc": "PUC", "degree": "डिग्री", "birthCertificate": "जन्म प्रमाणपत्र", "casteCertificate": "जाति प्रमाणपत्र", "incomeCertificate": "आय प्रमाणपत्र", "domicileCertificate": "अधिवास प्रमाणपत्र", "marriageCertificate": "विवाह प्रमाणपत्र" },
+    "schemes": { "title": "योजनाएं", "desc": "सब्सिडी और पेंशन", "scholarships": "सक्रिय छात्रवृत्तियां", "govtSchemes": "सरकारी योजनाएं", "pension": "पेंशन स्थिति", "agriculturalSubsidies": "कृषि सब्सिडी" },
+    "property": { "title": "संपत्ति", "desc": "भूमि और दस्तावेज़", "ownedProperties": "स्वामित्व वाली संपत्ति", "saleDeeds": "बिक्री विलेख", "encumbranceCertificates": "EC प्रमाणपत्र", "propertyTaxReceipts": "कर रसीदें" }
+  },
+  "eligibility": {
+    "title": "योजना पात्रता जांच", "subtitle": "मिलान योजनाओं को खोजने के लिए अपना विवरण भरें",
+    "caste": "जाति श्रेणी", "income": "वार्षिक आय (₹)", "disability": "विकलांगता स्थिति",
+    "state": "राज्य", "gender": "लिंग", "age": "उम्र",
+    "yes": "हां", "no": "नहीं", "check": "पात्रता जांचें", "results": "परिणाम",
+    "eligible": "आप पात्र हैं", "schemesFound": "योजनाओं के लिए",
+    "general": "सामान्य", "obc": "OBC", "sc": "SC", "st": "ST",
+    "male": "पुरुष", "female": "महिला", "other": "अन्य"
+  },
+  "common": {
+    "download": "डाउनलोड", "update": "जानकारी अपडेट करें", "payNow": "अभी भुगतान करें",
+    "viewDetails": "विवरण देखें", "back": "वापस", "submit": "सबमिट करें", "cancel": "रद्द करें",
+    "loading": "लोड हो रहा है...", "noData": "कोई डेटा उपलब्ध नहीं", "success": "सफलता",
+    "error": "त्रुटि", "status": "स्थिति", "date": "तारीख", "amount": "राशि",
+    "paid": "भुगतान किया गया", "unpaid": "अभुक्त", "pending": "लंबित", "active": "सक्रिय",
+    "approved": "स्वीकृत", "rejected": "अस्वीकृत", "inReview": "समीक्षा में",
+    "search": "खोजें", "filter": "फ़िल्टर", "close": "बंद करें"
+  },
+  "chatbot": { "title": "सिविकसिंक AI", "placeholder": "नागरिक सेवाओं के बारे में कुछ भी पूछें...", "greeting": "नमस्ते! मैं आपका सिविकसिंक AI सहायक हूं। आज मैं आपकी कैसे मदद कर सकता हूं?", "voice": "वॉइस इनपुट" },
+  "notifications": { "title": "सूचनाएं", "markAllRead": "सभी को पढ़ा हुआ करें", "noNotifications": "अभी तक कोई सूचना नहीं", "unread": "अपठित" },
+  "payment": { "title": "UPI भुगतान", "enterPin": "UPI PIN दर्ज करें", "processing": "भुगतान प्रक्रिया में...", "success": "भुगतान सफल!", "transactionId": "लेनदेन आईडी", "toAccount": "खाते में" },
+  "progress": { "title": "प्रगति ट्रैकर", "noRequests": "कोई लंबित अनुरोध नहीं", "submitted": "सबमिट किया गया", "updated": "अंतिम अपडेट" }
+}

@@ -1,0 +1,52 @@
+{
+  "app": { "name": "ಸಿವಿಕ್‌ಸಿಂಕ್", "tagline": "ಒಂದು ಆ್ಯಪ್. ಪ್ರತಿ ಸೇವೆ. ಎಲ್ಲರಿಗಾಗಿ.", "tagline2": "ನಿಮ್ಮ ಡಿಜಿಟಲ್ ನಾಗರಿಕ ಗುರುತು" },
+  "nav": { "home": "ಹೋಮ್", "notifications": "ಅಧಿಸೂಚನೆಗಳು", "profile": "ಪ್ರೊಫೈಲ್", "progress": "ಪ್ರಗತಿ ಟ್ರ್ಯಾಕ್", "logout": "ಲಾಗ್‌ಔಟ್" },
+  "auth": {
+    "login": "ಲಾಗಿನ್", "signup": "ಸೈನ್ ಅಪ್", "forgotPassword": "ಪಾಸ್‌ವರ್ಡ್ ಮರೆತಿದ್ದೀರಾ?",
+    "username": "ಬಳಕೆದಾರ ಹೆಸರು", "password": "ಪಾಸ್‌ವರ್ಡ್", "confirmPassword": "ಪಾಸ್‌ವರ್ಡ್ ದೃಢೀಕರಿಸಿ",
+    "fullName": "ಪೂರ್ಣ ಹೆಸರು", "mobile": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ", "email": "ಇಮೇಲ್ ವಿಳಾಸ", "dob": "ಹುಟ್ಟಿದ ದಿನಾಂಕ",
+    "enterOTP": "OTP ನಮೂದಿಸಿ", "verifyOTP": "OTP ಪರಿಶೀಲಿಸಿ", "setPassword": "ಪಾಸ್‌ವರ್ಡ್ ಹೊಂದಿಸಿ",
+    "resetPassword": "ಪಾಸ್‌ವರ್ಡ್ ಮರುಹೊಂದಿಸಿ", "sendOTP": "OTP ಕಳುಹಿಸಿ", "captcha": "ಕ್ಯಾಪ್ಚಾ ಪೂರ್ಣಗೊಳಿಸಿ",
+    "noAccount": "ಖಾತೆ ಇಲ್ಲವೇ?", "haveAccount": "ಈಗಾಗಲೇ ಖಾತೆ ಇದೆಯೇ?",
+    "yourUsername": "ನಿಮ್ಮ ಅನನ್ಯ ಐಡಿ", "rememberUsername": "ಲಾಗಿನ್‌ಗಾಗಿ ಈ ಐಡಿ ನೆನಪಿಡಿ",
+    "newPassword": "ಹೊಸ ಪಾಸ್‌ವರ್ಡ್", "otpSent": "ನಿಮ್ಮ ಮೊಬೈಲ್‌ಗೆ OTP ಕಳುಹಿಸಲಾಗಿದೆ",
+    "loginSubtitle": "ಸೇವೆಗಳನ್ನು ಪ್ರವೇಶಿಸಲು ನಿಮ್ಮ ರುಜುವಾತುಗಳನ್ನು ನಮೂದಿಸಿ",
+    "signupSubtitle": "ನಿಮ್ಮ ನಾಗರಿಕ ಡಿಜಿಟಲ್ ಗುರುತನ್ನು ರಚಿಸಿ"
+  },
+  "dashboard": {
+    "welcome": "ಮರಳಿ ಸ್ವಾಗತ", "greeting": "ಶುಭ", "morning": "ಮುಂಜಾನೆ", "afternoon": "ಮಧ್ಯಾಹ್ನ", "evening": "ಸಂಜೆ",
+    "modules": "ಸೇವೆಗಳು", "eligibleSchemes": "ಅರ್ಹ ಯೋಜನೆಗಳು", "checkEligibility": "ಯೋಜನೆ ಅರ್ಹತೆ ಪರಿಶೀಲಿಸಿ",
+    "noBanners": "ಯೋಜನೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯಲು ನಿಮ್ಮ ಅರ್ಹತೆಯನ್ನು ಪರಿಶೀಲಿಸಿ"
+  },
+  "modules": {
+    "identity": { "title": "ಗುರುತು", "desc": "ಡಿಜಿಟಲ್ ಐಡಿ ದಾಖಲೆಗಳು", "aadhaar": "ಆಧಾರ್", "pan": "ಪ್ಯಾನ್ ಕಾರ್ಡ್", "passport": "ಪಾಸ್‌ಪೋರ್ಟ್", "voterID": "ಮತದಾರ ಗುರುತು ಚೀಟಿ", "rationCard": "ಪಡಿತರ ಚೀಟಿ", "abha": "ABHA ಆರೋಗ್ಯ ಐಡಿ" },
+    "health": { "title": "ಆರೋಗ್ಯ ಸೇವೆಗಳು", "desc": "ಆರೋಗ್ಯ ದಾಖಲೆಗಳು", "records": "ಆರೋಗ್ಯ ದಾಖಲೆಗಳು", "appointments": "ಅಪಾಯಿಂಟ್‌ಮೆಂಟ್ ಬುಕ್", "vaccinations": "ಲಸಿಕೆ ಇತಿಹಾಸ", "bloodDonations": "ರಕ್ತದಾನ", "prescriptions": "ಸಕ್ರಿಯ ಪ್ರಿಸ್ಕ್ರಿಪ್ಷನ್" },
+    "transport": { "title": "ಸಾರಿಗೆ ಮತ್ತು ಪ್ರಯಾಣ", "desc": "ಲೈಸೆನ್ಸ್, RC ಮತ್ತು ಟಿಕೆಟ್", "drivingLicense": "ಚಾಲನಾ ಪರವಾನಗಿ", "vehicleRC": "ವಾಹನ RC", "challans": "ದಂಡ / ಚಲಾನ್", "fastag": "FASTag ಇತಿಹಾಸ", "bookings": "ಟಿಕೆಟ್ ಬುಕ್" },
+    "bills": { "title": "ಬಿಲ್ ಪಾವತಿ", "desc": "ಉಪಯುಕ್ತತೆಗಳು ಮತ್ತು ತೆರಿಗೆ", "electricity": "ವಿದ್ಯುತ್ ಬಿಲ್", "gas": "ಗ್ಯಾಸ್ ಬಿಲ್", "water": "ನೀರಿನ ಬಿಲ್", "propertyTax": "ಆಸ್ತಿ ತೆರಿಗೆ", "broadband": "ಬ್ರಾಡ್‌ಬ್ಯಾಂಡ್" },
+    "certificates": { "title": "ಪ್ರಮಾಣಪತ್ರಗಳು", "desc": "ಶಿಕ್ಷಣ ಮತ್ತು ನಾಗರಿಕ", "sslc": "SSLC", "puc": "PUC", "degree": "ಪದವಿ", "birthCertificate": "ಜನ್ಮ ಪ್ರಮಾಣಪತ್ರ", "casteCertificate": "ಜಾತಿ ಪ್ರಮಾಣಪತ್ರ", "incomeCertificate": "ಆದಾಯ ಪ್ರಮಾಣಪತ್ರ", "domicileCertificate": "ನಿವಾಸ ಪ್ರಮಾಣಪತ್ರ", "marriageCertificate": "ವಿವಾಹ ಪ್ರಮಾಣಪತ್ರ" },
+    "schemes": { "title": "ಯೋಜನೆಗಳು", "desc": "ಸಬ್ಸಿಡಿ ಮತ್ತು ಪಿಂಚಣಿ", "scholarships": "ಸಕ್ರಿಯ ವಿದ್ಯಾರ್ಥಿವೇತನ", "govtSchemes": "ಸರ್ಕಾರಿ ಯೋಜನೆಗಳು", "pension": "ಪಿಂಚಣಿ ಸ್ಥಿತಿ", "agriculturalSubsidies": "ಕೃಷಿ ಸಬ್ಸಿಡಿ" },
+    "property": { "title": "ಆಸ್ತಿ", "desc": "ಭೂಮಿ ಮತ್ತು ದಾಖಲೆ", "ownedProperties": "ಸ್ವಂತ ಆಸ್ತಿ", "saleDeeds": "ಮಾರಾಟ ಪತ್ರ", "encumbranceCertificates": "EC ಪ್ರಮಾಣಪತ್ರ", "propertyTaxReceipts": "ತೆರಿಗೆ ರಸೀದಿ" }
+  },
+  "eligibility": {
+    "title": "ಯೋಜನೆ ಅರ್ಹತೆ ಪರಿಶೀಲನೆ", "subtitle": "ಹೊಂದಾಣಿಕೆಯ ಯೋಜನೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ",
+    "caste": "ಜಾತಿ ವರ್ಗ", "income": "ವಾರ್ಷಿಕ ಆದಾಯ (₹)", "disability": "ಅಂಗವೈಕಲ್ಯ ಸ್ಥಿತಿ",
+    "state": "ರಾಜ್ಯ", "gender": "ಲಿಂಗ", "age": "ವಯಸ್ಸು",
+    "yes": "ಹೌದು", "no": "ಇಲ್ಲ", "check": "ಅರ್ಹತೆ ಪರಿಶೀಲಿಸಿ", "results": "ಫಲಿತಾಂಶ",
+    "eligible": "ನೀವು ಅರ್ಹರು", "schemesFound": "ಯೋಜನೆಗಳಿಗೆ",
+    "general": "ಸಾಮಾನ್ಯ", "obc": "OBC", "sc": "SC", "st": "ST",
+    "male": "ಪುರುಷ", "female": "ಮಹಿಳೆ", "other": "ಇತರ"
+  },
+  "common": {
+    "download": "ಡೌನ್‌ಲೋಡ್", "update": "ಮಾಹಿತಿ ನವೀಕರಿಸಿ", "payNow": "ಈಗ ಪಾವತಿಸಿ",
+    "viewDetails": "ವಿವರ ನೋಡಿ", "back": "ಹಿಂದೆ", "submit": "ಸಲ್ಲಿಸಿ", "cancel": "ರದ್ದುಮಾಡಿ",
+    "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...", "noData": "ಡೇಟಾ ಲಭ್ಯವಿಲ್ಲ", "success": "ಯಶಸ್ಸು",
+    "error": "ದೋಷ", "status": "ಸ್ಥಿತಿ", "date": "ದಿನಾಂಕ", "amount": "ಮೊತ್ತ",
+    "paid": "ಪಾವತಿಸಲಾಗಿದೆ", "unpaid": "ಪಾವತಿಸಿಲ್ಲ", "pending": "ಬಾಕಿ", "active": "ಸಕ್ರಿಯ",
+    "approved": "ಅನುಮೋದಿಸಲಾಗಿದೆ", "rejected": "ತಿರಸ್ಕರಿಸಲಾಗಿದೆ", "inReview": "ಪರಿಶೀಲನೆಯಲ್ಲಿ",
+    "search": "ಹುಡುಕಿ", "filter": "ಫಿಲ್ಟರ್", "close": "ಮುಚ್ಚಿ"
+  },
+  "chatbot": { "title": "ಸಿವಿಕ್‌ಸಿಂಕ್ AI", "placeholder": "ನಾಗರಿಕ ಸೇವೆಗಳ ಬಗ್ಗೆ ಏನಾದರೂ ಕೇಳಿ...", "greeting": "ನಮಸ್ಕಾರ! ನಾನು ನಿಮ್ಮ ಸಿವಿಕ್‌ಸಿಂಕ್ AI ಸಹಾಯಕ. ಇಂದು ನಾನು ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು?", "voice": "ಧ್ವನಿ ಇನ್‌ಪುಟ್" },
+  "notifications": { "title": "ಅಧಿಸೂಚನೆಗಳು", "markAllRead": "ಎಲ್ಲವನ್ನೂ ಓದಿದ್ದಾಗಿ ಗುರುತಿಸಿ", "noNotifications": "ಇನ್ನೂ ಅಧಿಸೂಚನೆಗಳಿಲ್ಲ", "unread": "ಓದಿಲ್ಲ" },
+  "payment": { "title": "UPI ಪಾವತಿ", "enterPin": "UPI PIN ನಮೂದಿಸಿ", "processing": "ಪಾವತಿ ಪ್ರಕ್ರಿಯೆಯಲ್ಲಿ...", "success": "ಪಾವತಿ ಯಶಸ್ವಿ!", "transactionId": "ವಹಿವಾಟು ಐಡಿ", "toAccount": "ಖಾತೆಗೆ" },
+  "progress": { "title": "ಪ್ರಗತಿ ಟ್ರ್ಯಾಕರ್", "noRequests": "ಬಾಕಿ ವಿನಂತಿಗಳಿಲ್ಲ", "submitted": "ಸಲ್ಲಿಸಲಾಗಿದೆ", "updated": "ಕೊನೆಯ ನವೀಕರಣ" }
+}
