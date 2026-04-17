@@ -5,9 +5,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: { 50: '#eef7ff', 100: '#d9edff', 200: '#bce0ff', 300: '#8eccff', 400: '#58b0ff', 500: '#3291ff', 600: '#1a73f5', 700: '#155ce1', 800: '#174bb6', 900: '#19418f', 'DEFAULT': '#1a3a4a' },
-        accent: { 50: '#f0fdf4', 100: '#dcfce7', 200: '#bbf7d0', 300: '#86efac', 400: '#4ade80', 500: '#22c55e', 600: '#16a34a', 700: '#15803d', 800: '#166534', 900: '#14532d' },
-        civic: { dark: '#0f1923', card: '#162332', border: '#1e3a4f', text: '#94a3b8', light: '#f8fafc', surface: '#ffffff' }
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+        primary: { 50: '#eef7ff', 100: '#d9edff', 200: '#bce0ff', 300: '#8eccff', 400: '#58b0ff', 500: '#3291ff', 600: '#1a73f5', 700: '#155ce1', 800: '#174bb6', 900: '#19418f', 'DEFAULT': '#1a3a4a', foreground: "hsl(var(--primary-foreground))" },
+        secondary: { DEFAULT: "hsl(var(--secondary))", foreground: "hsl(var(--secondary-foreground))" },
+        muted: { DEFAULT: "hsl(var(--muted))", foreground: "hsl(var(--muted-foreground))" },
+        accent: { 50: '#f0fdf4', 100: '#dcfce7', 200: '#bbf7d0', 300: '#86efac', 400: '#4ade80', 500: '#22c55e', 600: '#16a34a', 700: '#15803d', 800: '#166534', 900: '#14532d', DEFAULT: "hsl(var(--accent))", foreground: "hsl(var(--accent-foreground))" },
+        civic: { dark: '#0f1923', card: '#162332', border: '#1e3a4f', text: '#94a3b8', light: '#f8fafc', surface: '#ffffff' },
+        card: { DEFAULT: "hsl(var(--card))", foreground: "hsl(var(--card-foreground))" }
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],

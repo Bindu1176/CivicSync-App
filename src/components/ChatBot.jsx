@@ -13,7 +13,7 @@ export default function ChatBot() {
   const inputRef = useRef(null);
 
   useEffect(() => {
-    if (isOpen && messages.length === 0) {
+    if (isOpen) {
       setMessages([{ role: 'assistant', content: t('chatbot.greeting') }]);
     }
   }, [isOpen]);

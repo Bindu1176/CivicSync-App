@@ -37,6 +37,21 @@ export default function Notifications() {
     } catch {}
   };
 
+  const handleNotificationClick = (n) => {
+    if (!n.isRead) markRead(n._id);
+    
+    if (n.link) return navigate(n.link);
+    if (n.moduleId) return navigate(`/module/${n.moduleId}`);
+    
+    switch(n.type) {
+      case 'scheme': return navigate('/module/schemes');
+      case 'payment': return navigate('/module/bills');
+      case 'document': return navigate('/module/certificates');
+      case 'update': return navigate('/progress');
+      default: return;
+    }
+  };
+
   const typeIcons = { scheme: '🏛️', payment: '💰', document: '📄', update: '🔄', general: '📢' };
 
   return (
@@ -66,8 +81,8 @@ export default function Notifications() {
           </div>
         ) : (
           notifications.map((n, i) => (
-            <div key={n._id} onClick={() => !n.isRead && markRead(n._id)}
-              className={`glass-card rounded-2xl p-4 animate-slide-up cursor-pointer ${!n.isRead ? 'border-l-4 border-l-primary-500' : 'opacity-75'}`}
+            <div key={n._id} onClick={() => handleNotificationClick(n)}
+              className={`glass-card rounded-2xl p-4 animate-slide-up cursor-pointer hover:scale-[1.02] transition-transform ${!n.isRead ? 'border-l-4 border-l-primary-500' : 'opacity-75'}`}
               style={{ animationDelay: `${i * 40}ms` }}>
               <div className="flex items-start gap-3">
                 <span className="text-2xl">{typeIcons[n.type] || '📢'}</span>
